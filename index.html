@@ -1,0 +1,300 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="x-ua-compatible" content="ie=edge">
+		<title>Mercé</title>
+		<meta name="description" content="">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+
+		
+		<link rel="shortcut icon" type="image/x-icon" href="favicon.ico" />
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+		<link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.3.0/css/datepicker.css" rel="stylesheet" type="text/css" />
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.12.4/css/bootstrap-select.min.css">
+		<link rel="stylesheet" href="dist/css/letter-drop.css">
+		<link rel="stylesheet" href="dist/css/app.css">
+
+	</head>
+	<body>
+
+			<div id="preloader">
+					
+				<video src="dist/video/merce-video-bg.mov"
+					playsinline muted autoplay loop/></video>
+			</div>
+			<div class="merci-desktop-home">		  
+					<img src="dist/img/preloader-black.png" alt="">
+			</div>
+
+	
+
+			<div class="pop-up-desktop-2">
+				<span class="close-desktop-2">&times;</span>
+				<h4> 3/12 tickets available</h4>
+				<div class="with-wine">
+					<div class="left-ticket">
+							<input type="text" name="TextBox" id="ticket-count-1" value="0" />
+							<input type="Button" id='AddTicket1' value="+" />
+							<input type="Button" id='SubTicket1' value="-" />
+					</div>
+					<div class="right-price">
+						<p> With wine pairing </p>
+						<p class="wine-price">$200</p>
+					</div>
+				</div>
+				<div class="without-wine">
+					<div class="left-ticket">
+							<input type="text" name="TextBox" id="ticket-count-2" value="0" />
+							<input type="Button" id='AddTicket2' value="+" />
+							<input type="Button" id='SubTicket2' value="-" />
+					</div>
+					<div class="right-price">
+						<p> Without wine pairing </p>
+						<p class="without-wine-price">$120</p>
+					</div>
+				</div>
+					<button class="purchase-desktop-btn-2">
+						<p id="no-height">Purchase</p>
+					</button>
+			</div>
+			
+
+
+			<div class="pop-up-mobile">
+					<span class="close">&times;</span>
+					<h3> Portland </h3>
+					<h4> June 14, 2019 </h4>
+					<p>Because Mercé is the first restaurant to implement clean-meat technology, chef Grant Achatz has taken it upon himself to spread the word of this groundbreaking innovation. </p>
+					<p>He has organized a traveling supper club where he will travel to ten locations around the United States. Ticketed guests will have the opportunity to enjoy Mercé’s French clean-meat cuisine prepared by Achatz, a world renowned, three Michelin star chef.</p>
+					<p class="tickets-p"> Tickets are limited .</p>
+					<button class="purchase-mobile-btn">
+						<p>Purchase</p>
+					</button>
+				</div>
+
+
+
+		   <div class="pop-up-mobile-2">
+					<span class="close-2">&times;</span>
+					<h4> 3/12 tickets available</h4>
+					<div class="with-wine">
+						<div class="left-ticket">
+							<input type="text" name="TextBox" id="ticket-count-1" value="0" />
+							<input type="Button" id='AddTicket1' value="+" />
+							<input type="Button" id='SubTicket1' value="-" />
+						</div>
+						<div class="right-price">
+							<p> With wine pairing </p>
+							<p class="wine-price">$200</p>
+						</div>
+					</div>
+					<div class="without-wine">
+						<div class="left-ticket">
+							<input type="text" name="TextBox" id="ticket-count-2" value="0" />
+							<input type="Button" id='AddTicket2' value="+" />
+							<input type="Button" id='SubTicket2' value="-" />
+						</div>
+						<div class="right-price">
+							<p> Without wine pairing </p>
+							<p class="without-wine-price">$120</p>
+						</div>
+					</div>
+						<button class="purchase-mobile-btn-2">
+							<p id="no-height">Purchase</p>
+						</button>
+				</div>
+			
+			<div class="normal-nav">
+				<nav>
+					<ul>
+						<li class="active"><a class="home"><img id="switch-home" src="../dist/img/nav-dot1.png"><alt=""></a></li>
+						<li><a class="location"><img id="switch-location" src="dist/img/nav-dot2.png" alt=""></a></li>
+						<li><a class="reservation"><img id="switch-reservation" src="dist/img/nav-dot3.png" alt=""></a></li>
+						<li><a class="map"><img id="switch-map" src="dist/img/nav-dot4.png" alt=""></a></li>
+					</ul>
+				</nav>
+			</div>
+
+	<div class="page-wrapper">
+			<div class="about-wrapper current-page">
+				<div class="pulsing-ring"></div>
+				<canvas class="canvas" id="bridge"></canvas>
+					<div class="about-section">
+						<div class="logo">
+							<h1><a>Mercé</a></h1>
+						</div>
+						<p>At Mercé, we see that the world is unable to further withstand the strain that animal agriculture has put on it. In addition, we believe the suffering of the animals being raised for food has been hidden and ignored for too long. As a result, we have formed our entire identity around transparency. Our food is made without a single suffering animal as well as a far-less suffering earth. We have no secrets to hide. As the first restaurant to utilize clean-meat technology, Mercé is an entirely new creative experience that satisfies in an inspiring and guilt-free way.</p>
+
+					</div>
+			</div>
+			<div class="location-wrapper invisible-page">
+					<h2 class="purple-text location-title">Location</h2>
+					<div class="location-section">
+							<video src="dist/video/merce-video-bg.mov"
+							playsinline muted autoplay loop/></video>
+						
+						
+						<p id="address-location">Pier 43, San Francisco, CA 94133 </p>	
+					</div>
+				</div> 
+				 <div class="reservation-wrapper invisible-page">
+						<div class="reservation-section">
+							<h2 class="purple-text reservation-split res-active" id="reservation-split">Reservations</h2>
+							<div class="form-container">
+
+									<div class="add-guests">
+										<input type="text" name="TextBox" id="guest-count" value="0" />
+										<p>guests</p>
+										<input type="Button" id='AddButton' value="+" />
+										<input type="Button" id='SubButton' value="-" />
+									</div>
+								
+									<input type='text' class="form-control" id='datepicker'> 
+ 									<!-- <input type='text' class="form-control" data-provide="datepicker" style='width: 300px;' > -->
+								
+								<div class="time-select">
+									<select class="selectpicker" data-style="selector-container-styles">
+										<option class="option-styles" value="0">5:00 PM</option>
+										<option class="option-styles" value="1">5:30 PM</option>
+										<option class="option-styles" value="2">6:00 PM</option>
+										<option class="option-styles" value="3">6:30 PM</option>
+										<option class="option-styles" value="4">7:00 PM</option>
+										<option class="option-styles" value="5">7:30 PM</option>
+										<option class="option-styles" value="6">8:00 PM</option>
+										<option class="option-styles" value="7">8:30 PM</option>
+										<option class="option-styles" value="8">9:00 PM</option>
+										<option class="option-styles" value="9">9:30 PM</option>
+										<option class="option-styles" value="10">10:00 PM</option>
+									</select>
+								</div>
+								<input class="form-control" id="name" name="name" type="text" placeholder="Name"> 
+							</div>
+							<button id="reserve-btn">
+								<p>Reserve</p>
+							</button>    
+						</div>
+					</div> 
+					<div class="map-wrapper invisible-page">
+							
+							<div class="map-video">
+									<video src="dist/video/merce-video-bg.mov" 
+									playsinline muted autoplay loop/></video>
+								</div>
+
+							<!-- <div id="preloader-map-page">
+										<h2 class="purple-text super-desktop-title">Supper Club</h2>
+								</div> -->
+						
+
+								<div class="pop-up-desktop">
+										<span class="close-desktop">&times;</span>
+										<h3> Portland </h3>
+										<h4> June 14, 2019 </h4>
+										<p>Because Mercé is the first restaurant to implement clean-meat technology, chef Grant Achatz has taken it upon himself to spread the word of this groundbreaking innovation. </p>
+										<p>He has organized a traveling supper club where he will travel to ten locations around the United States. Ticketed guests will have the opportunity to enjoy Mercé’s French clean-meat cuisine prepared by Achatz, a world renowned, three Michelin star chef.</p>
+										<div class="bottom-pop-up">
+											<p class="tickets-p-desktop"> Tickets are limited .</p>
+											<button class="purchase-desktop-btn">
+												<p id="no-height">Purchase</p>
+											</button>
+										</div>
+									</div>
+									<div class="pop-up-desktop-2">
+											<span class="close-desktop-2">&times;</span>
+											<h4> 3/12 tickets available</h4>
+											<div class="with-wine">
+												<div class="left-ticket">
+														<input type="text" name="TextBox" id="ticket-count-1" value="0" />
+														<input type="Button" id='AddTicket1' value="+" />
+														<input type="Button" id='SubTicket1' value="-" />
+												</div>
+												<div class="right-price">
+													<p> With wine pairing </p>
+													<p class="wine-price">$200</p>
+												</div>
+											</div>
+											<div class="without-wine">
+												<div class="left-ticket">
+														<input type="text" name="TextBox" id="ticket-count-2" value="0" />
+														<input type="Button" id='AddTicket2' value="+" />
+														<input type="Button" id='SubTicket2' value="-" />
+												</div>
+												<div class="right-price">
+													<p> Without wine pairing </p>
+													<p class="without-wine-price">$120</p>
+												</div>
+											</div>
+												<button class="purchase-desktop-btn-2">
+													<p id="no-height">Purchase</p>
+												</button>
+										</div>
+
+									
+						<div class="map-section">	
+								<div class="map-desktop-home">
+										
+										<img src="dist/img/states-black.png" alt="">
+										<div class="state wa"></div>
+										<div class="state mt"></div>
+										<div class="state or"></div>
+										<div class="state co"></div>
+										<div class="state tx"></div>
+										<div class="state la"></div>
+										<div class="state al"></div>
+										<div class="state nc"></div>
+										<div class="state ny"></div>
+										<div class="state il"></div>
+								</div>
+
+							
+							
+								<div class="map-mobile">
+									
+									<div class="white-bg"></div>
+									<h2 id="super-heading-m"class="purple-text">Supper Club</h2>
+									<div class="mobile-img-map">
+										<img class="mobile-state" src="dist/img/AL.png" alt="">
+										<img class="mobile-state" src="dist/img/CO.png" alt="">
+										<img class="mobile-state" src="dist/img/IL.png" alt="">
+										<img class="mobile-state" src="dist/img/LA.png" alt="">
+										<img class="mobile-state" src="dist/img/MT.png" alt="">
+										<img class="mobile-state" src="dist/img/NC.png" alt="">
+										<img class="mobile-state" src="dist/img/NY.png" alt="">
+										<img class="mobile-state" src="dist/img/OR.png" alt="">
+										<img class="mobile-state" src="dist/img/TX.png" alt="">
+										<img class="mobile-state" src="dist/img/WA.png" alt="">
+									</div>
+									<div class="map-mobile-footer"></div>
+								</div>	
+						</div>
+					</div>
+
+			
+	</div>
+
+	
+
+
+		
+		
+	  <script
+			src="https://code.jquery.com/jquery-3.2.1.js"
+			integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE="
+			crossorigin="anonymous"></script>
+	  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	  <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.12.4/js/bootstrap-select.min.js"></script>
+	  <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.3.0/js/bootstrap-datepicker.js"></script>
+
+
+
+	  <script src="https://use.fontawesome.com/32ca864f38.js"></script>
+	  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.20.3/TweenMax.min.js"></script>
+	  <script src="https://cdnjs.cloudflare.com/ajax/libs/parallax/3.1.0/parallax.min.js"></script>		
+	  <script src="dist/js/jquery.letter-drop.min.js"></script>	
+	  <script src="dist/js/app.js"></script>
+
+		<!-- to learn more about src vs dist, go here https://stackoverflow.com/questions/23730882/what-is-the-role-of-src-and-dist-folders -->
+
+	</body>
+</html>
